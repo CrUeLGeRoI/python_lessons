@@ -1,6 +1,6 @@
-print("s = 1 + 2 + 3 + 4 + 5 +.... + n")
-s = 0
-n = int(input("Enter n: "))
-for x in range(1, n + 1):
-    s += x
-    print(s)
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+for i in range(1, a + 1):
+    for j in range(1, b + 1):
+        print(f"{i} * {j} = ", i * j)
+    print("-" * 12)

@@ -1,11 +1,3 @@
-# Skier
-# a = 1
-# b = 10
-# while b < 20:
-#     b += b * 0.1
-#     a += 1
-# print(f"Нужное кол-во дней:{a}")
-
 # y = x2
 
 # x = 1
@@ -55,3 +47,11 @@
 #     a //= 10
 #     count += 1
 # print(f"Length of your number is: {count}")
+
+# print("S = 1/2 + 1/4 + 1/8 + 1/16 + ... + n")
+# n = int(input("Введите n: "))
+# a = 0
+# for i in range(1, n + 1):
+#     a += 1/2 ** i
+# print(f"S: {a}")
+
