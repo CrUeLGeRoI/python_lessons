@@ -160,15 +160,13 @@ All exercises
 #     print("Первый")
 
 # 8
-
 # def max(a, b, c):
-#     mx = a
-#     if b > mx:
+#     if b > a and b > c:
 #         return b
-#     if c > mx:
+#     if c > a and c > b:
 #         return c
 #     else:
-#         return mx
+#         return a
 #
 #
 # x = int(input("1 сторона: "))
@@ -176,11 +174,11 @@ All exercises
 # z = int(input("3 сторона: "))
 # if x + y > z and z + x > y and z + y > x:
 #     print("Это треугольник")
-#     if max(x, y, z) ** 2 == y**2 + z**2 or max(x, y, z) == x**2 + z**2 or max(x, y, z) == x**2 + y**2:
+#     if max(x, y, z) ** 2 == y**2 + z**2 or max(x, y, z) ** 2 == x**2 + z**2 or max(x, y, z) ** 2 == x**2 + y**2:
 #         print("Прямоугольный")
-#     elif max(x, y, z) ** 2 > y**2 + z**2 or max(x, y, z) > x**2 + z**2 or max(x, y, z) > x**2 + y**2:
+#     elif max(x, y, z) ** 2 > y**2 + z**2 or max(x, y, z) ** 2 > x**2 + z**2 or max(x, y, z) ** 2 > x**2 + y**2:
 #         print("Тупоугольный")
-#     elif max(x, y, z) ** 2 < y**2 + z**2 or max(x, y, z) < x**2 + z**2 or max(x, y, z) < x**2 + y**2:
+#     elif max(x, y, z) ** 2 < y**2 + z**2 or max(x, y, z) ** 2 < x**2 + z**2 or max(x, y, z) ** 2 < x**2 + y**2:
 #         print("Остроугольный")
 # else:
 #     print("Это не треугольник")
