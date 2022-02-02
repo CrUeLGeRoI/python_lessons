@@ -58,27 +58,31 @@
 # print(languages)
 
 # Task 8
-# a = input()
-# num_list = []
-#
-# num = ''
-# for char in a:
-#     if char.isdigit():
-#         num += char
-#     elif char == "-":
-#         num += char
-#     else:
-#         if num != '' and num != '-':
-#             num_list.append(int(num))
-#             num = ''
-# if num != '':
-#     num_list.append(int(num))
-#
-# sum = 0
-# for i in num_list:
-#     sum += i
-#
-# print(sum)
+a = input()
+num_list = []
+
+num = ''
+for char in a:
+    if char.isdigit():
+        num += char
+    elif char == "-":
+        if num != '' and char == '-':
+            num_list.append(int(num))
+            num = '-'
+        else:
+            num += char
+    else:
+        if num != '' and num != '-':
+            num_list.append(int(num))
+            num = ''
+if num != '':
+    num_list.append(int(num))
+
+sum = 0
+for i in num_list:
+    sum += i
+
+print(sum)
 
 # Task 9
 # a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
