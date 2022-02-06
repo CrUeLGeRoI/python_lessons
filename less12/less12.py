@@ -74,22 +74,22 @@ language = {
 #     list_of_infos.remove(i)
 # print(list_of_infos)
 
-list_huge = []
-for i in range(30):
-    info = {
-        "color": "yellow",
-        "points": "15"
-    }
-    list_huge.append(info)
-    print(f"{list_huge}")
-for p in list_huge[0:3]:
-    if p["color"] == "yellow":
-        p["color"] = "blue"
-        p["points"] = 100
-for x in list_huge:
-    print(x)
-    print(f"Количество игроков {len(list_huge)}")
-for p in list_huge[0:3]:
-    if p["color"] == "yellow":
-        p["color"] = "blue"
-        p["points"] = 100
+# list_huge = []
+# for i in range(30):
+#     info = {
+#         "color": "yellow",
+#         "points": "15"
+#     }
+#     list_huge.append(info)
+#     print(f"{list_huge}")
+# for p in list_huge[0:3]:
+#     if p["color"] == "yellow":
+#         p["color"] = "blue"
+#         p["points"] = 100
+# for x in list_huge:
+#     print(x)
+#     print(f"Количество игроков {len(list_huge)}")
+# for p in list_huge[0:3]:
+#     if p["color"] == "yellow":
+#         p["color"] = "blue"
+#         p["points"] = 100
