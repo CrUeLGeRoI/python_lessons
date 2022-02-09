@@ -81,33 +81,47 @@
 # print("Такого программиста нету в мире")
 
 # 8
+# food = {
+#     "Кефир": "Кисломолочный продукт",
+#     "Колбаса": "Мясной фарш",
+#     "Блины": "Вкусняяяшки!!!",
+#     "Шоколадка": "Спасает когда надо чем-то перекусить"
+# }
+# a = input("Наличие какого продукта в холодильнике вы хотите узнать?: ")
+# found = False
+# for i in food.keys():
+#     if i == a:
+#         print(f"{i} есть в холодильнике!")
+#         found = True
+# if not found:
+#     print(f"{a} нету в холодильнике!")
 
 
 # 9
-def createInfoCity(country, population, fact):
-    dictionary = {"country": country, "population": population, "fact": fact}
-    return dictionary
-
-
-city_kharkov = createInfoCity("Ukraine", 1419000, "Рынок Барабашова – самый большой рынок в Европе.")
-city_moskva = createInfoCity("Russia", 11920000, "В сердце города хранятся мумифицированные останки В.И. Ленина.")
-city_newYork = createInfoCity("New-York", 8200000,
-                              "Нью-йоркское метро — самое большое в мире, оно насчитывает более 460 станций. Ежедневно оно перевозит около 8 миллионов пассажиров, что сравнимо с числом жителей этого города.")
-city_kyiv = createInfoCity("Ukraine", 2884000,
-                           "Самым высоким строением в Киеве остается телебашня, возведенная в 1970-х годах. Установленные на ней передатчики размещены на высоте в 380 метров.")
-cities = {
-    "Kharkov": city_kharkov,
-    "Moskva": city_moskva,
-    "New-York": city_newYork,
-    "Kyiv": city_kyiv,
-}
-for i, j in cities.items():
-    print("-" * 20)
-    print(f"{i}:")
-    for a, b in j.items():
-        if a == "country":
-            print(f"{i} is in country: {b}")
-        elif a == "population":
-            print(f"The population of {i} is: {b}")
-        elif a == "fact":
-            print(f"Interesting fact about {i}: {b}")
+# def createInfoCity(country, population, fact):
+#     dictionary = {"country": country, "population": population, "fact": fact}
+#     return dictionary
+#
+#
+# city_kharkov = createInfoCity("Ukraine", 1419000, "Рынок Барабашова – самый большой рынок в Европе.")
+# city_moskva = createInfoCity("Russia", 11920000, "В сердце города хранятся мумифицированные останки В.И. Ленина.")
+# city_newYork = createInfoCity("New-York", 8200000,
+#                               "Нью-йоркское метро — самое большое в мире, оно насчитывает более 460 станций. Ежедневно оно перевозит около 8 миллионов пассажиров, что сравнимо с числом жителей этого города.")
+# city_kyiv = createInfoCity("Ukraine", 2884000,
+#                            "Самым высоким строением в Киеве остается телебашня, возведенная в 1970-х годах. Установленные на ней передатчики размещены на высоте в 380 метров.")
+# cities = {
+#     "Kharkov": city_kharkov,
+#     "Moskva": city_moskva,
+#     "New-York": city_newYork,
+#     "Kyiv": city_kyiv,
+# }
+# for i, j in cities.items():
+#     print("-" * 20)
+#     print(f"{i}:")
+#     for a, b in j.items():
+#         if a == "country":
+#             print(f"{i} is in country: {b}")
+#         elif a == "population":
+#             print(f"The population of {i} is: {b}")
+#         elif a == "fact":
+#             print(f"Interesting fact about {i}: {b}")
