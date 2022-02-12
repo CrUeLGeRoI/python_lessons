@@ -5,5 +5,6 @@ less11 - 02.02 HW wasn't deployed
 less12 - 05.02
 less13 - 09.02 Practical lesson(without HW)
 less14 - 12.02
+Markers: comment "Alice"; sixe instead of size; tittle
 less15 - 16.02
 less16 - 19.02
