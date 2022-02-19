@@ -7,4 +7,10 @@ less13 - 09.02 Practical lesson(without HW)
 less14 - 12.02
 Markers: comment "Alice"; sixe instead of size; tittle
 less15 - 16.02
-less16 - 19.02
+less16 - 19.02 Practical lesson(without HW)
+less17 - 23.02
+less18 - 26.02
+less19 - 02.03
+less20 - 05.03
+less21 - 09.03
+less22 - 13.03
