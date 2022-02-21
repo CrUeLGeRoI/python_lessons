@@ -29,4 +29,11 @@
 # print(f"Size of shirt is: {a['size']}. Title of shirt is: {a['titlle']}")
 # a = make_shirt()
 # print(f"Size of shirt is: {a['size']}. Title of shirt is: {a['titlle']}")
+# 5
+def describe_city(city, country="Mars"):
+    print(f"{city} is in {country}")
 
+
+describe_city("Kharkov", "Ukraine")
+describe_city("Hillirurliya")
+describe_city("Tantum-Verde")
